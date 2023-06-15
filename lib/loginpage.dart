@@ -14,7 +14,8 @@ class LoginPage extends StatelessWidget {
         width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/res.jpg'), // Replace with your image path
+            image:
+                AssetImage('images/tree.jpg'), // Replace with your image path
             fit: BoxFit.cover,
           ),
         ),
@@ -25,15 +26,6 @@ class LoginPage extends StatelessWidget {
             children: [
               const Padding(
                 padding: EdgeInsets.fromLTRB(10, 10, 10, 40),
-                child: Text(
-                  "Welcome",
-                  style: TextStyle(
-                    fontWeight: FontWeight.w500,
-                    fontStyle: FontStyle.italic,
-                    fontSize: 28,
-                    color: Color.fromARGB(255, 247, 247, 247),
-                  ),
-                ),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -84,13 +76,13 @@ class LoginPage extends StatelessWidget {
                     height: 50,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromARGB(255, 58, 60, 63),
+                      color: Color.fromARGB(178, 175, 194, 212),
                     ),
                     child: const Center(
                       child: Text(
                         "Login",
                         style: TextStyle(
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.w400,
                           fontSize: 23,
                           color: Color.fromARGB(255, 255, 255, 255),
                         ),
